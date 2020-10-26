@@ -1,11 +1,159 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+
+/* Header Edits*/
 
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    background-color: white;
+}
+.container h1{
+    float:left;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    font-size: 18px
+}
+.container li{
+    float: right;
+    padding: 15px;
+    list-style-type: none;
+    font-size: 18px;
+}
+.container a{
+    color: #6b7280;
+}
+.container a:hover{
+   color: #5A67D8;
+}
+
+/* Hero Overview Section Edits*/
+
+.overview-hero-image img{
+    padding-top: 150px;
+    height:200px;
+    width: 250px;
+}
+.overview-hero-image .container{
+    background-color: #E2E8F0;
+}
+.over-hero-text h2{
+    color:red;
+}
+
+/* Learn About Section Edits*/
+
+.learn-about .container{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.learn-about h2{
+    font-size: 24px;
+    color: #48BB78;
+}
+.learn-about h3{
+    font-size: 21px;
+    color: #48BB78;
+}
+.card img{
+    height: 200px;
+    width: 250px;
+}
+.cards{
+    text-align: center;
+    border-color: #E2E8F0;
+}
+
+
+
+/* Testing Section */
+
+.testing .container{
+    background-color: #4A5568;
+    color: white;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.cta a{
+    background-color: #48BB78;
+    border-radius: 5px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+/* Newsletter Edits */
+
+.newsletter .container{
+    text-align: center;
+    background-color: #48BB78;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+.newsletter .btn{
+    display:inline-block;
+    background-color: #5A67D8;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0px;
+
+}
+#email{
+    display: inline-block;
+    border-radius:5px;
+    padding: 15px;
+    padding-right: 90px;
+}
+
+
+/* Stories Edits */
+
+.stories img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 35px;
+}
+
+.stories h2{
+    padding-top: 15px;
+    color: #5A67D8;
+}
+
+.stories a{
+    color: #5A67D8;
+}
+.stories h3{
+    font-size: 18px;
+}
+.stories .article-body{
+    padding-bottom: 40px;
+}
+
+
+/* Footer Edits */
+
+footer .container{
+    background-color: #4A5568;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
 }
