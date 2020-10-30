@@ -37,11 +37,12 @@ li{
  a:hover{
    color: #5A67D8;
 }
+
+
+/* Hero Overview Section Edits*/
 .overview-hero p{
     padding-bottom: 20px;
 }
-
-/* Hero Overview Section Edits*/
 
 .overview-hero-image img{
     padding-top: 10px;
