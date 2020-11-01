@@ -2,19 +2,24 @@
 
 window.onload = function(){
 
+    var myForm = document.querySelector("div form");
+    var theMessage = document.getElementsByClassName(".message");
 
-    document.querySelector("button").addEventListener("click", function(){
-        var formData = document.getElementById('email').value;
-        let email = formData.email.value;
-        var message = document.querySelector(".message")
-        
-        if(email){
-            message.innerHTML = 'Thank you! Your email address <${email}> has been added to your mailing list';
-            return false;
+
+    myForm.addEventListener('submit', e =>{
+        e.preventDefault();
+
+        var email = document.getElementById("email").value;
+
+        if(email != ""){
+            theMessage.innerHTML = `Thank you! Your email address ${email} has been added to our mailing list!`;
+            window.alert(theMessage.innerHTML);
         }else{
-            message.innerHTML = 'Please enter a valid email';
-            return false;
+            theMessage.innerHTML = 'Please enter a valid email address';
+            window.alert(theMessage.innerHTML);
+
         }
 
     })
+    
 }

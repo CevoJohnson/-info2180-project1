@@ -64,12 +64,7 @@ li{
 .overview-hero-text{
     padding-top: 10px;
 }
-/*.overview-hero .container{ 
-    background-color: #E2E8F0;
-}
-.overview-hero{
-    background-color: #E2E8F0;
-}
+
 
 
 /* Learn About Section Edits*/
@@ -84,14 +79,15 @@ li{
     font-size: 24px;
     color: #48BB78;
     padding-bottom: 25px;
+    margin-left: 5px;
 }
 .learn-about h3{
     font-size: 21px;
     color: #48BB78;
 }
 .card img{
-    height: 200px;
-    width: 250px;
+    height: 250px;
+    width: 296px;
     border-radius: 5px;
 }
 .card{
