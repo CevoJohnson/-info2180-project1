@@ -3,7 +3,7 @@
 window.onload = function(){
 
     var myForm = document.querySelector("div form");
-    var theMessage = document.getElementsByClassName(".message");
+    var theMessage = document.querySelector(".message");
 
 
     myForm.addEventListener('submit', e =>{
@@ -13,10 +13,8 @@ window.onload = function(){
 
         if(email != ""){
             theMessage.innerHTML = `Thank you! Your email address ${email} has been added to our mailing list!`;
-            window.alert(theMessage.innerHTML);
         }else{
             theMessage.innerHTML = 'Please enter a valid email address';
-            window.alert(theMessage.innerHTML);
 
         }
 
